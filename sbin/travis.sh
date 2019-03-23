@@ -87,7 +87,7 @@ InstallColorSchemeUnit() {
     CSU_PATH="$STP/ColorSchemeUnit"
     if [ "$SUBLIME_TEXT_VERSION" -eq 3 ] && [ ! -d "$CSU_PATH" ]; then
 
-        CSU_URL="https://github.com/gerardroche/sublime-color-scheme-unit"
+        CSU_URL="https://github.com/Briles/sublime-color-scheme-unit"
 
         if [ -z $COLOR_SCHEME_UNIT_TAG ]; then
             # latest tag
